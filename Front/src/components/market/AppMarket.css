@@ -1,0 +1,20 @@
+.red-circle-title {
+    color: var(--red-1);
+}
+
+.title-section {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.btn-add-talent {
+    background-color: var(--purple-gpac) !important;
+    color: white !important;
+    font-weight: bold;
+}
+
+.btn-add-talent::after {
+    font-family: "FontAwesome";
+    content: "\f055";
+    margin-left: 30px;
+}

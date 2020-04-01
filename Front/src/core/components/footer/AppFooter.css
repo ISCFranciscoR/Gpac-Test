@@ -1,0 +1,8 @@
+@media (max-width: 575px) {
+    #content-wrap {
+        padding-bottom: calc( var(--footer-height) * 2);
+    }
+    #footer {
+        height: calc( var(--footer-height) * 2);
+    }
+}

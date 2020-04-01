@@ -1,0 +1,37 @@
+.option-sidebar:hover,
+.option-sidebar.active,
+.option-sidebar:hover .nav-link.active {
+    background-color: var(--purple-gpac);
+}
+
+.option-sidebar .nav-link.active {
+    background-color: var(--red-1);
+}
+
+.option-sidebar .nav-link {
+    color: white;
+}
+
+.sidebar-fixed-height {
+    overflow-y: auto;
+    height: calc(100vh - var(--footer-height));
+    max-height: calc(100vh - var(--footer-height));
+}
+
+.menu_icon {
+    margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-container {
+        max-height: calc(100% - 300px);
+        overflow-y: auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .sidebar-fixed-height {
+        height: calc(100vh - (var(--footer-height) * 2));
+        max-height: calc(100vh - (var(--footer-height) * 2));
+    }
+}

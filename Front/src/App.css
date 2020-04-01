@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root {
+    --black-1: #1A1C21;
+    --black-2: #20232B;
+    --black-3: #24292E;
+    --black-4: #2B313B;
+    --gray-1: #34343C;
+    --gray-2: #5C5C5C;
+    --gray-3: #7B868D;
+    --light-gray-1: #C1C1C1;
+    --light-gray-2: #00000033;
+    --light-gray-3: #CECECE;
+    --light-gray-4: #00000005;
+    --purple-gpac: #4056F4;
+    --red-1: #FD3939;
+    --red-2: #FF3939;
+    --footer-height: 30px;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: Roboto, sans-serif !important;
+    color: var(--light-gray-3) !important;
+}
+
+.monserrat-font {
+    font-family: Montserrat;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: var(--footer-height);
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: var(--footer-height);
+}
+
+.bg-black-1 {
+    background-color: var(--black-1);
+}
+
+.bg-black-2 {
+    background-color: var(--black-2);
+}
+
+.bg-black-3 {
+    background-color: var(--black-3);
+}
+
+.bg-black-4 {
+    background-color: var(--black-3) !important;
+}
+
+.bg-gray-1 {
+    background-color: var(--gray-1);
+}
+
+.bg-purple-gpack {
+    background-color: var(--purple-gpac) !important;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-light-gray-1 {
+    color: var(--light-gray-1);
+}
+
+.text-light-gray-2 {
+    color: var(--light-gray-2);
+}
+
+.text-light-gray-4 {
+    color: var(--light-gray-4);
+}
+
+.text-light-gray-3 {
+    color: var(--light-gray-3);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

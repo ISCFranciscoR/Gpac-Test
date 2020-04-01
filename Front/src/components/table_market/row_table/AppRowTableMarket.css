@@ -1,0 +1,21 @@
+.tr-market {
+    border-radius: 3px;
+}
+
+.candidate-name {
+    font-size: 18px;
+}
+
+.btn-view-profile {
+    border: 1px solid var(--gray-2) !important;
+}
+
+.profile-photo {
+    max-width: 55px !important;
+    margin-left: -25px;
+}
+
+.money-symbol:before {
+    content: '$ ';
+    float: left;
+}

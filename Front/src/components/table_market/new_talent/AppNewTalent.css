@@ -1,0 +1,20 @@
+.talent-gpac-modal .modal-content {
+    background-color: var(--black-2) !important;
+}
+
+.talent-gpac-modal .modal-header {
+    /* color: var(--purple-gpac); */
+    border-bottom: 1px solid var(--purple-gpac);
+}
+
+.talent-gpac-modal .modal-footer {
+    border-top: 1px solid var(--purple-gpac) !important;
+}
+
+.talent-gpac-modal button.bg-purple-gpack {
+    border-color: var(--purple-gpac);
+}
+
+.talent-gpac-modal button.close {
+    color: var(--purple-gpac);
+}

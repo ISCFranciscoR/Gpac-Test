@@ -1,0 +1,11 @@
+.not-implemented {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.not-implemented .icon-not-implemented {
+    font-size: 200px;
+}
